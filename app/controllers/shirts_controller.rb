@@ -1,4 +1,5 @@
 class ShirtsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_shirt, only: [:show, :edit, :update, :destroy]
 
   # GET /shirts
