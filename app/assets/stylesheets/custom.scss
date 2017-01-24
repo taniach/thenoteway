@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$maroon: #7b2f3d;
+$gold: #c8b682;
+$silver: #cccccc;
+$grey: #919394;
+$darkGrey: #5b5d5f;
+
+
+
+/* Buttons */
+.btn-maroon {
+  background-color: $maroon;
+  color: whitesmoke;
+}
+
+a.btn-maroon:hover {
+  color: $gold;
+}

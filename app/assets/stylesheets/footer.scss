@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* footer */
+
+$maroon: #7b2f3d;
+$gold: #c8b682;
+$silver: #cccccc;
+$grey: #919394;
+$darkGrey: #5b5d5f;
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  background-color: $maroon;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: $gold;
+  text-decoration: none;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  //margin-left: 15px;
+}

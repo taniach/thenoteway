@@ -1,0 +1,11 @@
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+            $('#notewayLogo').attr( 'src' , "<%= image_path 'noteway_logo_white_small.png', :id => 'notewayLogo' %>" );
+        } else {
+            $('nav').removeClass('shrink');
+            $('#notewayLogo').attr( 'src' , "<%= image_path 'noteway_logo_white.png', :id => 'notewayLogo' %>" );
+        }
+    });
+});
