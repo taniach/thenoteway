@@ -9,29 +9,29 @@ $darkGrey: #5b5d5f;
 
 /* header */
 
-.logo {
+header .logo {
   float: left;
   padding-bottom: 10px;
-  //padding-left: 15px;
+  padding-left: 15px;
   padding-top: 10px;
 }
 
-.navbar-nav li a {
+header .navbar-nav li a {
   line-height: 100px;
   font-size: 16px;
 }
 
-.navbar-nav {
+header .navbar-nav {
   margin-right: 20px;
   margin-bottom: -80px;
 }
 
-nav.navbar.shrink {
+header nav.navbar.shrink {
   min-height: 60px;
 }
 
 
-.navbar-default {
+header .navbar-default {
   background-color: $maroon;
   border-color: $maroon;
 
@@ -49,18 +49,3 @@ nav.navbar.shrink {
 }
 
 
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-
-  .navbar-nav li a {
-    line-height: 0px;
-    font-size: 16px;
-  }
-
-  .navbar-nav {
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-}

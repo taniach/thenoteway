@@ -5,7 +5,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$maroon: #7b2f3d;
 $gold: #c8b682;
+$silver: #cccccc;
+$grey: #919394;
+$darkGrey: #5b5d5f;
 
 #jumbotronDescription {
   font-size: 1.2em;
@@ -17,6 +21,13 @@ $gold: #c8b682;
 }
 
 
-.homepageSection2 {
-  background-color: $gold;
+.homepageSection {
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#homepage2, #homepage4 {
+  background-color: #eeeeee;
 }

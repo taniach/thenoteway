@@ -7,14 +7,18 @@ $silver: #cccccc;
 $grey: #919394;
 $darkGrey: #5b5d5f;
 
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
 
+  .navbar-nav li a {
+    line-height: 0px;
+    font-size: 16px;
+  }
 
-/* Buttons */
-.btn-maroon {
-  background-color: $maroon;
-  color: whitesmoke;
-}
-
-a.btn-maroon:hover {
-  color: $gold;
+  .navbar-nav {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
 }

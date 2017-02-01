@@ -1,0 +1,17 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$maroon: #7b2f3d;
+$gold: #c8b682;
+$silver: #cccccc;
+$grey: #919394;
+$darkGrey: #5b5d5f;
+
+.productName {
+  color: $maroon;
+  text-align: center;
+}
+
+#productsPageHeading {
+  margin: 30px;
+}
